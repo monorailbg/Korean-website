@@ -207,7 +207,13 @@
 
 .main {
     background-color: #141414;
-    background-image: url("images/korea2.png");
+    background-image: url("images/koreax.png");
+    background-size: cover;
+
+}
+
+.main:before {
+    opacity: 0.6;
 }
 
 .main__container {
@@ -216,11 +222,11 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 150vh;
     z-index: 1;
     width: 100%;
     max-width: 13;
-    padding: 0 50px;
+    padding: 0px 50px 400px 100px;
 }
 
 
@@ -296,14 +302,9 @@
     width: 100%;
 }
 .bg__img--container {
-    
+    opacity: 0.6;
     padding-top: 200px;
     padding-bottom: 200px;
-}
-
-#bg__img {
-    height: 100%;
-    width: 150%;
 }
 
 .main__img--container {
@@ -311,8 +312,8 @@
 }
 
 #main__img {
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
 }
 
 /*mobile Responsive*/
