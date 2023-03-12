@@ -5,12 +5,11 @@
     font-family: 'Kumbh Sans';
 }
 
-.nk {
-    size: 20%;
-}
-
 .navbar {
     background: #131313;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -22,14 +21,16 @@
 }
 
 .navbar__container {
+    overflow: hidden;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1700px;
     margin: 0 auto;
     padding: 0px;
+    font-family: 'Khumb Sans';
 }
 
 #navbar__logo {
@@ -47,7 +48,7 @@
     text-decoration: none;
     font-size: 2.75rem;
     font-family: 'Amita';
-    padding-right: 600px;
+    padding-right: 300px;
 }
 
 .navbar__menu {
@@ -59,7 +60,7 @@
 }
 
 .navbar__item {
-    height: 00px;
+    height: 00px; 
 }
 
 .navbar__links {
@@ -127,6 +128,7 @@
 
 @media screen and (max-width:960px) {
     .navbar__container {
+        overflow: hidden;
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -135,6 +137,7 @@
         max-width: 1300px;
         padding: 0;
     }
+    
     .navbar__menu {
         display: grid;
         grid-template-columns: auto;
@@ -144,9 +147,10 @@
         opacity: 0;
         position: absolute;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 60vh;
         z-index: -1;
         background: #131313;
+        padding-bottom: 0;
     }
 
     .navbar__menu.active{
@@ -155,7 +159,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 70vh;
         font-size: 1.6rem;
     }
 
@@ -169,11 +173,11 @@
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background: #fff;
-
     }
 
     .navbar__item {
         width: 100%;
+        height: 75px;
     }
 
     .navbar__links {
@@ -194,13 +198,24 @@
         padding-bottom: 2rem;
     }
 
-    .button {
+    .buttonsu {
         display: flex;
+        align-items: left;
         justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 80px;
+        width: 20%;
+        height: 60px;
+        margin:  0;
+        border-radius: 16px;
+        font-size: 1.3rem;
+    }
+    .buttonsi {
+        display: flex;
+        align-items: right;
+        width: 20%;
+        height: 60px;
         margin: 0;
+        border-radius: 16px;
+        font-size: 1.3rem;
     }
 
     .navbar__toggle .bar {
@@ -226,7 +241,6 @@
 /* Hero Section CSS*/
 .main {
     background-color: #141414;
-    width: 100%;
 }
 
 .main {
