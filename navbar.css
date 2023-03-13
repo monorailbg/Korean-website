@@ -60,7 +60,12 @@
 }
 
 .navbar__item {
+<<<<<<< HEAD
     height: 00px; 
+=======
+    height: 00px;
+    padding-right: 
+>>>>>>> 872a88c (init)
 }
 
 .navbar__links {
