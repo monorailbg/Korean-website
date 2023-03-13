@@ -50,13 +50,13 @@
 .practice {
     background-image: url("/images/black.png");
     height: 750px;
-    width: 1600px;
+    width: 1300px;
     display: grid;    
     margin: 0 auto;
     border-radius: 30px;
     z-index: 1;
     max-width: 13;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 00px;
     
 }
 .practice__content {
