@@ -4,7 +4,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: hsl(0, 100%, 11%);
+    background: hsl(0, 100%, 9%);
     border-radius: 100vw;
     margin-block: .2em;
     
@@ -16,7 +16,7 @@
     border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(0, 100%, 19%);
+    background: hsl(0, 100%, 13%);
 }
 
 
