@@ -8,12 +8,16 @@
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="scrollbar.css">
+        <link rel="stylesheet" href="login_form.css">
         <script src="https://kit.fontawesome.com/06544d203f.js" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
+
         <!--Navbar Section-->
         <nav class="navbar">
             <div class="navbar__container">
@@ -38,15 +42,14 @@
                         <a href="/VerbConjugation.html" class="navbar__links">Verb Conjugation</a>
                     </li>
                     <li class="navbar__btn">
-                        <a href="/" class="buttonsi">Sign In</a>
+                        <a href="/login.html" class="buttonsi">Sign In</a>
                     </li>
                     <li class="navbar__btn">
-                        <a href="/" class="buttonsu">Sign Up</a>
+                        <a href="/login.html" class="buttonsu">Sign Up</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
         <!--Hero Section-->
         <div class="main">
             <div class="main__container">
@@ -58,6 +61,31 @@
                 </div>
                 <div class="main__img--container">
                     <img src="images/pic1.svg" alt="pic" id="main__img">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                    </form>
+                        <div class="input-box">
+                        <span class="icon"><ion-icon name="key-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <login-register>
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </login-register>
                 </div>
             </div>
         </div>
