@@ -48,7 +48,7 @@
     text-decoration: none;
     font-size: 2.75rem;
     font-family: 'Amita';
-    padding-right: 300px;
+    padding-right: 800px;
 }
 
 .navbar__menu {
@@ -60,16 +60,11 @@
 }
 
 .navbar__item {
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 00px; 
-=======
-    height: 00px;
-    padding-right: 
->>>>>>> 872a88c (init)
-=======
-    height: 00px; 
->>>>>>> cc63511 (init)
+}
+
+#sk9 {
+    padding-left: 50px;
 }
 
 .navbar__links {
